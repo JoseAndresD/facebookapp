@@ -1,4 +1,4 @@
-curl -X POST "https://graph.facebook.com/v2.6/me/subscribed_apps?access_token=<EAANwiLCZBpfcBAEehq42EbAzlkdFPZCcK7D3uDSWwNc4FDNZCUerQ42PYfsnF8aWMRt4qr4uMCfEsBAAwshz7cPesgxyd1aSoJUuZAjY1Ig2ZA24If74rjnAMn8OU8lkSxEIm70cN0Iu8mspoNPeczGd1rEGZAjoO4FmfRq3cKxAZDZD>"
+curl -X POST "https://graph.facebook.com/v2.6/me/subscribed_apps?access_token=EAANwiLCZBpfcBAEehq42EbAzlkdFPZCcK7D3uDSWwNc4FDNZCUerQ42PYfsnF8aWMRt4qr4uMCfEsBAAwshz7cPesgxyd1aSoJUuZAjY1Ig2ZA24If74rjnAMn8OU8lkSxEIm70cN0Iu8mspoNPeczGd1rEGZAjoO4FmfRq3cKxAZDZD"
 
 {
   "success": true
