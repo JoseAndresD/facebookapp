@@ -25,3 +25,12 @@ curl -X POST "https://graph.facebook.com/v2.6/me/subscribed_apps?access_token=EA
     }
   ]
 }
+
+
+app.get('/webhook', function (req, res) {
+  if (req.query['hub.verify_token'] === <YOUR_VERIFY_TOKEN>) {
+    res.send(req.query['hub.challenge']);
+  } else {
+    res.send('Error, wrong validation token');    
+  }
+});
